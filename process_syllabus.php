@@ -54,7 +54,7 @@ function extract_file_content($filepath)
 // Hàm gọi API Gemini
 function call_gemini_api($content)
 {
-    $api_key = 'AIzaSyBokxNX3D5J1YixNQxTrDl_ODkmR-YUl6Y'; // Thay bằng API Key thực tế
+    $api_key = 'API-GOOGLE'; // Thay bằng API Key thực tế
     $endpoint = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
 
     // Prompt yêu cầu Gemini trích xuất JSON
